@@ -1,0 +1,47 @@
+:root{
+        /* font-size */
+         --fs-sm1:14px;
+         --fs-sm:12px;
+         --fs-md:16px;
+        --fs-md1:28px;
+         --fs-lg:27px;
+         --fs-xl:34px;
+         --fs-2xl:38px;
+        /* colors */
+          --bg-blue:#0576B3;
+          --bg-blue1:#0073B1;
+          --text-light-white:#CFE5F0;
+          --text-light-white1:#E5F1F7;
+          --text-yellow:#F8B762;
+          --bg-black:#0D0D0D;
+          --text-light-creem:#CFCFCF;
+          --bg-gray:#313131;
+          --color-blue:#0073B1;
+        /* line-hight */
+         --lh-sm:20px;
+         --lh-md:24px;
+        --lh-md1:25.72px;
+         --lh-lg:40.4px;
+         --lh-xl:38px;
+         --lh-2xl:50px;
+}
+
+@media (min-width:566.7px) {
+  :root{
+    --fs-sm1:14px;
+        --fs-sm:16px;
+        --fs-md:24px;
+        --fs-md1:32px;
+        --fs-lg:52px;
+        --fs-xl:64px;
+        --fs-2xl:80px;
+
+        /* line-height */
+        --lh-sm:24px;
+        --lh-md:30.72px;
+        --lh-md1:35.72px;
+        --lh-lg:62.4px;
+        --lh-xl:83.2px;
+        --lh-2xl:100px;
+  }
+}
